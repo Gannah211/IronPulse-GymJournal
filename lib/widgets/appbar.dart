@@ -18,7 +18,7 @@ class AppbarWidget extends StatelessWidget {
       appBar: GradientAppBar(
         title: Row(
           children: [
-            Icon(Icons.bolt, size: 40, color: Colors.amber),
+            // Icon(Icons.bolt, size: 40, color: Colors.amber),
             Text(
               Title,
               style: TextStyle(
@@ -30,7 +30,7 @@ class AppbarWidget extends StatelessWidget {
           ],
         ),
         gradient: LinearGradient(
-          colors: [Color(0xFF1C1018), Color(0xFFD34E24)],
+          colors: [Color(0xFF1C1018), Color.fromARGB(255, 211, 78, 36)],
         ),
       ),
       body: ScafoldWidget,
